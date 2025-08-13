@@ -52,7 +52,7 @@
               <a href="#">Linked In</a>
             </li>
             <li>
-              <a class="btn" href="contact"> <i class="fas fa-user"></i> Contact Me </a>
+              <a class="btn" href="#contact"> <i class="fas fa-user"></i> Contact Me </a>
             </li>
           </ul>
         </div>
@@ -76,50 +76,80 @@
         </div>
       </div>
     </section>
-   
-    <!-- About Me Section -->
-    <section class="about-me" id="about">
-      <div class="container-sm">
-        <h1 class="text-xxl text-center">About Me</h1>
-        <div class="AM-content">
-          <img src="images/about_me.jpeg" alt="Matthew" class="about-me-img">
-          <div class="paragraph">
-            <p class="bg-am text-lg">
-              Hello everyone, I'm university student at Wilfred Laurier University.
-              I enjoy going to the gym, spoiling my cat Espresso, and playing sports. 
-            </p>
-          </div>
+   <!-- about me -->
+<section class="about-me" id="about">
+  <div class="container">
+    <h1 class="text-xxl text-center">About Me</h1>
+    <div class="AM-content">
+      <div class="image-container">
+        <img src="images/about_me.jpeg" alt="Matthew" class="about-me-img">
+      </div>
+      <div class="about-me-text">
+        <p class="text-lg text-white">
+          Hello everyone! I'm a Computer Science student at 
+          Wilfrid Laurier University. I enjoy going to the gym, spoiling my cat 
+          Espresso, skiing and playing squash.
+        </p>
+        <p class="text-lg text-white">
+          I recently founded <strong>Klystric</strong>, an AI startup that builds 
+          custom solutions for businesses. Feel free to reach out below!
+        </p>
+        <div class="tags">
+          <span class = "text-white"><i class="fas fa-paw text-white"></i> Cat Dad</span>
+          <span class = "text-white"><i class="fas fa-basketball-ball text-white"></i> Gym Lover</span>
+          <span class = "text-white"><i class="fas fa-code text-white"></i> Developer</span>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
     <!--projects and leetcode-->
 
-    <section class="projects bg-dark">
+<section class="projects bg-dark">
   <div class="container-sm">
     <h2 class="text-xxl text-center">Projects <i class='fas fa-laptop'></i></h2>
     <p class="text-md text-center">Here are some of my projects</p>
     <div class="project-links">
-      <!-- Project 1: AI-Bot -->
+           <!-- Klystric (Featured Project) -->
+     <div class="project-card card featured-project">
+  <div class="project-image-overlay"></div>
+  <div class="project-content">
+    <h3 class="text-lg text-white">Klystric</h3>
+    <p class="text-sm text-white">AI Tailored to Your Needs</p>
+    <a href="https://klystric.com" class="btn btn-primary">
+      <i class="fas fa-globe"></i> View Website
+    </a>
+  </div>
+</div>
+      <!-- Project 1 -->
       <div class="project-card card">
         <h3 class="text-lg text-white">AI-Bot</h3>
-        <p class="text-sm text-white">A Python-based chatbot leveraging NLP for interactive conversations. Built with OpenAI's API and custom training datasets.</p>
-        <a href="https://github.com/Matthew-Tian5/AI-Bot" class="btn btn-primary">View Project</a>
+        <p class="text-sm text-white">Ai chatbot with to summarized serachess</p>
+        <a href="https://github.com/Matthew-Tian5/AI-Bot" class="btn btn-primary">
+          <i class="fas fa-code"></i> View Code
+        </a>
       </div>
-
-      <!-- Project 2: Student Formatter -->
+      
+      <!-- Project 2 -->
       <div class="project-card card">
         <h3 class="text-lg text-white">Student Formatter</h3>
-        <p class="text-sm text-white">Automates student data processing with Pandas. Cleans CSV/Excel files and generates formatted reports.</p>
-        <a href="https://github.com/Matthew-Tian5/Student-Formatter" class="btn btn-primary">View Project</a>
+        <p class="text-sm text-white">Automated data processing tool</p>
+        <a href="https://github.com/Matthew-Tian5/Student-Formatter" class="btn btn-primary">
+          <i class="fas fa-code"></i> View Code
+        </a>
       </div>
-
-      <!-- Project 3: Vulnerability Scanner -->
+      
+      <!-- Project 3 -->
       <div class="project-card card">
         <h3 class="text-lg text-white">Vulnerability Scanner</h3>
-        <p class="text-sm text-white">Security tool that scans networks for open ports and common vulnerabilities using Python and Nmap.</p>
-        <a href="https://github.com/Matthew-Tian5/Vulnerability-Scanner" class="btn btn-primary">View Project</a>
+        <p class="text-sm text-white">Network security utility</p>
+        <a href="https://github.com/Matthew-Tian5/Vulnerability-Scanner" class="btn btn-primary">
+          <i class="fas fa-code"></i> View Code
+        </a>
       </div>
+      
+ 
     </div>
   </div>
 </section>
@@ -135,25 +165,25 @@
           <!--links to contact me-->
           <div class="card bg-light">
             <div class="cm-header">
-              <h4 class="cm-heading text-xl">Contacts</h4>
-                <p class="cm-card-subheading text-sm text-gb">
-                  Contact me text text text text text text text text text
+              <h4 class="cm-heading text-xxl">Contacts</h4>
+                <p class="cm-card-subheading text-md text-gb">
+                  Contact me at any of the following platforms
                 </p>
             </div>
           
             <div class="cm-card-body">
               <ul>
                 <li>
-                  <a href="https://www.instagram.com/matthew.0520m/" class="cm-links"><img src="images/Instagram_icon.png" alt="Matthew" class = "cm-logos">Instagram</a>
+                  <a href="https://www.instagram.com/matthew.0520m/" class="cm-links text-lg"><img src="images/Instagram_icon.png" alt="Matthew" class = "cm-logos">Instagram</a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/in/matthew-tian-1a7a5236a/" class="cm-links"><img src="images/linked-in-logo.png" alt="Matthew" class = "cm-logos"> Linked In</a>
+                  <a href="https://www.linkedin.com/in/matthew-tian-1a7a5236a/" class="cm-links text-lg"><img src="images/linked-in-logo.png" alt="Matthew" class = "cm-logos"> Linked In</a>
                 </li>
                 <li>
-                  <a href="https://github.com/Matthew-Tian5" class="cm-links"><img src="images/github.png" alt="Matthew" class = "cm-logos"> Github</a>
+                  <a href="https://github.com/Matthew-Tian5" class="cm-links text-lg"><img src="images/github.png" alt="Matthew" class = "cm-logos"> Github</a>
                 </li>
                 <li>
-                  <a href="matthew.tian2005@gmail.com" class="cm-links"><i class=""far-fas-address-book></i> Email</a>
+                  <a href="matthew.tian2005@gmail.com" class="cm-links text-lg"><i class=""far-fas-address-book></i> Email</a>
 
                 </li>
               </ul>
@@ -165,16 +195,19 @@
           <!--Resume-->
           <div class="card bg-dark">
             <div class="cm-header">
-              <h5 class="cmheading text-xl">
+              <h5 class="cmheading text-xxl">
                 Resume
               </h5>
-              <p class="text-sm cm-text">Here is a copy of my resume</p>
+              <p class="text-md cm-text">Here is a copy of my resume</p>
             </div>
           
             <div class="cm-card-body">
               <ul>
                 <li>
-                  <i class="fa-solid fa-address-card"></i><iframe src="Resume/Matthew Tian Resume.docx" width="100%" height="50%"> Resume</iframe>
+                  <i class="fa-solid fa-address-card"></i><iframe src="Resume/Matthew Tian Resume.pdf" width="100%" height="50%"> Resume</iframe>
+                  <a href="Resume/Matthew_Tian_Resume.pdf" class="btn">
+        <i class="fas fa-download"></i> Download Resume
+      </a>
 
                 </li>
               </ul>
